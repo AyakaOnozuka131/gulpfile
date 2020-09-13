@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/earlyaccess/notosansjapanese.css");
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+/* ------------------------------
+- reset
+------------------------------ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-family: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+  line-height: 1;
+  color: #444;
+  background: #fff;
+}
+ol,
+ul {
+  list-style: none;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  vertical-align: middle;
+}
+caption,
+th,
+td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+a {
+  color: #444;
+  display: inline-block;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+	transition: all .3s;
+}
+a:hover{
+	opacity: 0.7;
+}
+a img {
+  border: none;
+}
+img{
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+strong{
+	font-weight: bold;
+}
+body {
+  color: #444;
+  font: 15px/2 'Noto Sans Japanese', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body a {
+	transition: all 0.3s;
+  text-decoration: none;
+}
+body figure {
+  margin: 0;
+  font-size: 0;
+  line-height: 1;
+}
+.wrapper {
+  overflow: hidden;
+}
+.main {
+  display: block;
+	padding-top: 90px;
+	&--business{
+		padding-top: 140px;
+	}
+}
+@include mq-down(lg){
+	.main {
+		padding-top: 65px;
+		&--business{
+			padding-top: 115px;
+		}
+	}
+}
+@include mq-down(){
+	html {
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.4rem;
+    line-height: 1.7;
+  }
+  body img {
+    width: 100%;
+  }
+  .wrapper {
+    overflow: hidden;
+    min-width: 320px;
+  }
+  .main {
+		padding-top: 65px;
+		&--business{
+			padding-top: 107px;
+		}
+  }
+}

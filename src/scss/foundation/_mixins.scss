@@ -1,0 +1,42 @@
+//  ** ------------------
+//  --- Media Query
+//  ** ------------------
+@mixin mq-up($breakpoint: md) {
+  @media #{map-get($breakpoint-up, $breakpoint)} {
+    @content;
+  }
+}
+
+@mixin mq-down($breakpoint: md) {
+  @media #{map-get($breakpoint-down, $breakpoint)} {
+    @content;
+  }
+}
+
+//  ** ------------------
+//  --- Responsive iframe
+//  ** ------------------
+@mixin responsiveIframe($width, $height) {
+  position: relative;
+  overflow: hidden;
+  padding-top: percentage($height / $width);
+  @content;
+  iframe {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+//  ** ------------------
+//  --- font
+//  ** ------------------
+@mixin ff-hiragino(){
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+@mixin ff-mPlus(){
+	font-family: 'M PLUS 1p', sans-serif;
+}

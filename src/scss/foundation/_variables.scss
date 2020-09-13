@@ -1,0 +1,90 @@
+
+// --- Colors ---
+// logo
+$logoMainColor: #00048a;
+$logoSubColor:#40210f;
+
+// Major
+$keyColor:#ffba00;
+$baseBgColor: #fff;
+
+// header
+$headerTextColor: #9E908F;
+
+// footer
+$footerColor: #9E908F;
+
+// bg
+$bgThinColor: #f5f0e7;
+$bgMiddleColor: #f5f0e8;
+$bgDarkMiddleColor: #f2e8d5;
+$bgDarkColor: #e4dac9;
+
+// category
+$categoryColor: #f2d58a;
+
+// service
+$corporateColor: #ffd051;
+$corporateColorDark: #f7a340;
+$recruitColor: #5c9864;
+$sitterColor:#21a6e1;
+$sitterColorThin:#58beeb;
+$housekeeperColor:#ff8e42;
+$nurseryColor: #fe7774;
+$nurseryDarkColor: #E36261;
+$eventColor: #fd8e4c;
+$homecareColor: #159a1f;
+$companyColor: #853f82;
+$byoujiColor: #cfbc3a;
+$corporationColor: #00ACC1;
+
+// font
+$baseFontColor:#444;
+$thinFontColor: #666;
+$darkFontColor: #000;
+
+// border
+$borderColorLightGlay: #e1e1e1;
+$borderColorGlay: #aaaaaa;
+$borderColorDashed: #bbb9b9;
+$borderColorThinBrown: #e3dccb;
+
+// table
+$tableColor: #f8f6f1;
+$tableHeadByoujiColor: #f8f3ce;
+
+// button
+$primaryButton: #333;
+$informationServiceColor: #0071a3;
+$informationHomecareColor: #08550e;
+$informationCorporationColor: #00838F;
+$informationEventColor: #ca5d24;
+$informationByoujiColor: #928212;
+$informationNurseryColor: #e03d3d;
+
+// marker
+$markerYellow: #ffee99;
+$markerPink: #ffccdd;
+$markerBlue: #a8eaff;
+$markerOrange: #ffbf7f;
+
+// icon
+$iconColor: #f8be00;
+
+// other
+$colorRed :#f44743;
+$colorPurple :#853f82;
+// --- Break Point ---
+$breakpoint-up: (
+  'sm': 'screen and (min-width: 540px)',
+  'md': 'screen and (min-width: 768px)',
+  'lg': 'screen and (min-width: 1000px)',
+  'xl': 'screen and (min-width: 1100px)',
+) !default;
+
+$breakpoint-down: (
+  'sm': 'screen and (max-width: 539px)',
+  'md': 'screen and (max-width: 767px)',
+  'lg': 'screen and (max-width: 999px)',
+  'xl': 'screen and (max-width: 1099px)',
+) !default;

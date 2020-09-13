@@ -1,0 +1,32 @@
+//  ** ------------------
+//  Utility Class
+//  ** ------------------
+// Break
+.for-pc {
+  display:none;
+  @include mq-up {
+    display: inline;
+  }
+}
+.for-sp {
+  display:none;
+  @include mq-down {
+    display: inline;
+  }
+}
+.for-pc-middle {
+  @include mq-up(lg) {
+    display: inline;
+	}
+	@include mq-down(lg) {
+    display:none;
+  }
+}
+.for-sp-middle{
+	@include mq-up(lg) {
+    display:none;
+	}
+	@include mq-down(lg) {
+    display: inline;
+  }
+}
